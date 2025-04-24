@@ -1,10 +1,10 @@
 public class demo{
     public static void main(String[] args) {
-        int a = 10;
-        int b = 20;
-        int add = a + b;
-        int sub= a-b;
-        System.out.println("Addition:"+add);
-        System.out.println("Substraction :"+sub);
+        int a = 20;
+        int b = 10;
+        int multi = a * b;
+        int division = a/b;
+        System.out.println("Multiplication:"+multi);
+        System.out.println("Division :"+division);
     }
 }
